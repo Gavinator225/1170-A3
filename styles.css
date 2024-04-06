@@ -1,0 +1,251 @@
+/* Header Styles */
+header {
+    background-color: blanchedalmond;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+    margin: 15px  auto;
+    font-size: 50px;
+    color: brown;
+}
+
+h2 {
+    margin: 10px auto 5px;
+    font-size: 24px;
+    color: brown;
+}
+
+/* Paragraph Alignment */
+.centered-paragraph {
+    text-align: center;
+    
+}
+
+.left{
+    text-align: left;
+}
+
+/* Image Styles */
+.styled-image {
+    width: 520px;
+    height: 760px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Navigation Styles */
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+a {
+    color: rgb(223, 79, 22);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(218, 156, 23, 0.8);
+}
+
+/* Video Styles */
+.styled-video {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Chef Skills Styles */
+.chef-skills {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.chef-skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Image Styles */
+img {
+    border: 1px solid black;
+    background-color: burlywood;
+    padding: 5px;
+    margin: 10px;
+}
+.styled-bagel{
+    border: 1px solid black;
+    background-color: burlywood;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* List Styles */
+ul, ol {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    margin-top: 20px; /* Add margin top for separation */
+}
+
+li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: left;
+    background-color: rgba(255, 164, 45, 0.281);
+}
+
+/* Main Grid Styles */
+.grid-main {
+    max-width: 1200px;
+    margin: 20px auto; /* Adjust margin */
+    padding: 20px;
+}
+
+/* Grid Table Styles */
+.grid-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 20px; /* Add margin top for separation */
+}
+
+.grid-table, .grid-table th, .grid-table td {
+    border: 1px solid #333;
+}
+
+.grid-table th, .grid-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    width: 150px; /* Adjust width as needed */
+    margin-right: 10px; /* Adjust spacing between label and input */
+    text-align: left;
+}
+
+input {
+    flex: 1;
+    max-width: 40%;
+    text-align: left;
+}
+
+#submit {
+    margin: 10px auto;
+    background: brown;
+    color: white;
+    border: 0;
+    outline: 0;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#notification {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.notification {
+    width: 400px;
+    height: 80px;
+    background: #fff;
+    font-weight: 500;
+    margin: 15px auto;
+    box-shadow: 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    background-color: lightcoral;
+    color: black;
+    justify-content: center;
+}
+
+.success {
+    background-color: rgb(159, 228, 224);
+    color: black;
+    justify-content: center;
+}
+
+button {
+    border-radius: 3px;
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    margin: 3px;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#default {
+    background-color: brown;
+}
+
+#description {
+    flex: 1;
+    max-width: 40%;
+    height: 150px; /* Adjust height as needed */
+    resize: none; /* Prevent resizing of the textarea */
+    vertical-align: top; /* Align text to the top */
+}
