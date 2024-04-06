@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gavin Pelton</title>
+    <link rel="icon" href="chefhat.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Book Me!</h1>
+        <h2>Navigation</h2>
+        <ul class="nav-list">
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="Bookings.html"> Book </a></li>
+            <li><a href="Menu.html"> Menu </a></li>
+        </ul>
+    </header>
+
+    <br>
+
+    <main class="grid-main">
+        
+            <h1>How To Book</h1>
+        
+
+        <p>
+            I am completely booked for the month of February; however, I do not have any bookings from March till the end of the year.
+            If you have any special events in need of catering, please check my timetable and send an email
+            <a href="mailto: gwpelton@gmail.com">here</a>. I will try to respond as timely as possible. Sometimes I get quite busy, so
+            expect a response 1 - 3 business days after reaching out. If there is no response, then it is possible your email may have been buried in my
+            inbox or someone else has already allocated that time slot. Please send a follow-up email if you get no response or if you have any other
+            general questions. I look forward to hearing from you!
+        </p>
+        <br>
+
+        <h2>Booking Availability</h2>
+        <table class="grid-table">
+
+            <tr>
+                <th colspan="1">Days</th>
+                <th colspan="2">Monday</th>
+                <th colspan="2">Tuesday</th>
+                <th colspan="2">Wednesday</th>
+                <th colspan="2">Thursday</th>
+                <th colspan="2">Friday</th>
+                <th colspan="2">Saturday</th>
+                <th colspan="2">Sunday</th>
+            </tr>
+            <tr>
+                <th colspan="1">Time</th>
+                <td colspan="2">5:00 pm - 8:30 pm</td>
+                <td colspan="2">5:00 pm - 8:30 pm</td>
+                <td colspan="2">5:00 pm - 8:30 pm</td>
+                <td colspan="2">5:00 pm - 8:30 pm</td>
+                <td colspan="2">12:00 pm - 10:30 pm</td>
+                <td colspan="2">10:00 am - 11:30 pm</td>
+                <td colspan="2">5:00 pm - 8:30 pm</td>
+            </tr>
+        </table>
+        <br>
+
+        <div>
+            <h1>If you would still like to hire me, please fill out this form:</h1 >
+                <form class="form">
+                    <div class="form-group">
+                        <label>Firstname:</label>
+                        <input type="text" id="first" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label>Lastname:</label>
+                        <input type="text" id="last" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label >Email:</label>
+                        <input type="email" id="email" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="timeslot">Time:</label>
+                        <input type="text" id="timeslot" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="size">Party Size:</label>
+                        <input type="number" id="size" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="description">Description:</label>
+                        <textarea id="description" required></textarea>
+                    </div>
+                
+                    <button onclick="showNotification()" type="submit" id="submit">Submit</button>
+                
+                    <div id="notification"></div>
+                </form>
+
+        </div>
+
+        <h1>Catering vs Personal Cook</h1>
+        <p>
+            While the terms caterer and personal chef may seem similar, there is actually a difference between the two.
+            When booking an event with me, it is important to understand the difference between the two. Below I have
+            linked a video on the topic if there is any confusion.
+        </p>
+        <br>
+        <iframe width="760" height="480" src="https://www.youtube.com/embed/ho5b0tDKchM" frameborder="0" allowfullscreen></iframe>
+        <!-- Source: https://www.youtube.com/embed/ho5b0tDKchM  -->
+        
+        
+        
+    </main>
+</body>
+
+<script src="script.js"></script>
+
+</html>
